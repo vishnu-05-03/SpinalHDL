@@ -5,3 +5,5 @@
 
 # For compiling in single command make these changes
 - replace mylib with the new_name_directory ```sbt "~ runMain mylib.MyTopLevelVerilog"``` -> ```sbt "~ runMain new_name_directory.MyTopLevelVerilog"```
+
+[Example project Repository](https://github.com/SpinalHDL/SpinalTemplateSbt?tab=readme-ov-file)
