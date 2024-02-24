@@ -11,4 +11,5 @@
 
 ## For changing the directory structure
 - [Reference for the directory change](https://github.com/SpinalHDL/SpinalTemplateSbt)
-- For new project create a new folder and change the `Compile / scalaSource := baseDirectory.value / "hw" / "spinal",` to `Compile / scalaSource := baseDirectory.value / "PathToYourSoruceFiles"`
+- For new project create a new folder and change the `Compile / scalaSource := baseDirectory.value / "hw" / "spinal",` to `Compile / scalaSource := baseDirectory.value / "PathToYourSoruceFiles"` in `build.sbt` file
+- add the package name, i.e., `package package_name` in starting of all `.scala` files in your project folder and change `projectname` to your `package_name` in `build.sbt`
